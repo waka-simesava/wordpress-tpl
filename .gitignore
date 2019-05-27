@@ -1,0 +1,60 @@
+# --------------------
+# Linux
+# --------------------
+
+*~
+
+# --------------------
+# Apple OS X
+# --------------------
+
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# --------------------
+# Microsoft Windows
+# --------------------
+
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+
+# --------------------
+# npm & bower & etc
+# --------------------
+
+/.tmp/
+*.log
+/node_modules/
+/bower_components/
+/.vagrant/
+# package-lock.json
+# .htaccess
+# .htpasswd
+# robots.txt
+_mail/
+.sass-cache/
+_notes/
+*BK*
+*.bak.*
+
+# --------------------
+# とりあえず使っているテーマのみ管理
+# --------------------
+
+/app/*
+!/app/wp-content/
+/app/wp-content/*
+!/app/wp-content/themes/
+/app/wp-content/themes/*
+!/app/wp-content/themes/sdg-tmp004/
